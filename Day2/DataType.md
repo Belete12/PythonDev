@@ -1,33 +1,29 @@
-#Day2: DataType, operations, Type Conversions, f-string
+# Day2: DataType, operations, Type Conversions, f-string
 
-#DataType
-- Primitive data types
-    string
-    int
-    float
-    double
-    binary
+# DataType : Primitive data types
+    print("Hello world") - string 
+    print(2+3) - int
+    print(3.14) - float
+    print(True or False) - Boolean
 
-#TypeError
-These errors occur when you are using the wrong data type. e.g. len(12345)
-Because you can only give the len() function Strings, it will refuse to work and give you a TypeError if you give it a number (Integer).
+# Maths Operations
 
-PAUSE 1. Fix the len() function so it has no more warnings or errors.
-Type Checking
-You can check the data type of any value or variable in python using the type() function.
-print(type("abc")) #will give you <class 'str'>
+print(2+2)   #addition
+print(4-2)   #substruction
+print(2*2)   #multiplication
+print(4/2)   #division 
+print(4//2)  #floor 
+print(3**2)  #Exponent
 
-PAUSE 2. Write out 4 type checks to print all 4 data types
-Using the type() and print() functions to print out 4 lines into the output area so we get the full collection of data types that we learnt about. <class 'str'> <class 'int'> <class 'float'> and <class 'bool'>
 
-Type Conversion
-You can convert data into different data types using special functions. e.g.
+# Type Conversion
+You can convert data into different data types using special functions. but All string is not convertable for example we can't convert "ABC" to numbers
 
 float()
-
 int()
-
 str()
 
-PAUSE 3. Make this line of code run without errors
-print("Number of letters in your name: " + len(input("Enter your name")))
+num ="1234" # this is string
+print(num)  #string
+print(int(num))  #convert to int
+print(float(num))  #conver to float
