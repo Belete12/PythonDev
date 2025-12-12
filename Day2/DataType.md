@@ -1,6 +1,6 @@
-#Day2: DataType, operations, Type Conversions, f-string
+# Day2: DataType, operations, Type Conversions, f-string
 
-#DataType
+# DataType
 - Primitive data types
     string
     int
@@ -8,7 +8,7 @@
     double
     binary
 
-#TypeError
+# TypeError
 These errors occur when you are using the wrong data type. e.g. len(12345)
 Because you can only give the len() function Strings, it will refuse to work and give you a TypeError if you give it a number (Integer).
 
