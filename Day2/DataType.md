@@ -23,7 +23,9 @@ float()
 int()
 str()
 
+
 num ="1234" # this is string
 print(num)  #string
 print(int(num))  #convert to int
 print(float(num))  #conver to float
+
