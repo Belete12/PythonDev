@@ -8,20 +8,20 @@
 
 # Maths Operations
 
-    - print(2+2)   #addition
-      - print(4-2)   #substruction
-      - print(2*2)   #multiplication
-      - print(4/2)   #division 
-      - print(4//2)  #floor 
-      - print(3**2)  #Exponent
+    print(2+2)   #addition
+    print(4-2)   #substruction
+    print(2*2)   #multiplication
+    print(4/2)   #division 
+    print(4//2)  #floor 
+    print(3**2)  #Exponent
     
 
 # Type Conversion
 You can convert data into different data types using special functions. but All string is not convertable for example we can't convert "ABC" to numbers
 
-    - float()
-      - int()
-      - str()
+    float()
+    int()
+    str()
     
     num ="1234" #this is string
     print(num)  #string 
